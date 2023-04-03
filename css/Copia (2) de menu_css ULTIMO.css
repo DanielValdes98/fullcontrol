@@ -1,0 +1,65 @@
+
+/*	 M E N U   C S S 		*/
+<!--* { margin: 0px;padding: 0px; outline: 0;}-->
+/*html, body { background-color:#008DCC; width: 100%;}
+body { font-family: Verdana, Arial, Helvetica, sans-serif;}*/
+#menuesta {  font-size: 0.7em;margin: 20px;position: relative; width:56px;}
+#menuesta ul { list-style-type: none;}
+#menuesta ul li a.primera { border-top: solid 1px #FFF;} 
+#menuesta ul li a.nivel1, #menuesta ul li a.nivel1ie { width: 56px;height: 47px;background: url(../img/botones/estado.png) no-repeat; z-index:99; }
+#menuesta ul li a {display: block;text-decoration: none;color: #fff;position: relative;text-align: center;}
+/*#menuesta ul li a:hover, #menuesta ul li:hover a.nivel1 {background-color: #6CC;color: #000;position: relative;}*/
+#menuesta ul li a.nivel1 {display: block!important;display: none;position: absolute; margin-top:-14px; margin-left:20px;}
+#menuesta ul li ul {display: none; margin-left:-30px;}
+#menuesta ul li a:hover ul, #menuesta ul li:hover ul {display: block;position: absolute;top:30px;left:-5px;}
+/*#menuesta ul li ul li a {width: 143px;background-color: #000;color: #fff;border: solid 1px #fff;border-top: none;padding: 8px; }*/
+/*#menuesta ul li ul li a:hover {position: relative;background-color: #399;color: #FFF;}*/
+table.falsa {border-collapse:collapse;border:0px;float: left;position: relative;}
+
+ 
+/*	 MENU PARA ALERTAS		*/ 
+#menualertas {  font-size: 0.7em;margin: 20px;position: relative; width:40px;}
+#menualertas ul { list-style-type: none;}
+#menualertas ul li a.primera { border-top: solid 1px #FFF;} 
+#menualertas ul li a.nivel1alertas, #menualertas ul li a.nivel1alertasie {   width: 40px;height: 47px;background: url(../img/botones/alertas.png) no-repeat; z-index:99; }
+#menualertas ul li a {display: block;text-decoration: none;color: #fff;position: relative;text-align: center;}
+/*#menualertas ul li a:hover, #menualertas ul li:hover a.nivel1alertas {background-color: #6CC;color: #000;position: relative;}*/
+#menualertas ul li a.nivel1alertas {display: block!important;display: none;position:absolute; margin-top:-51px; margin-left:30px;}
+#menualertas ul li ul {display: none; margin-left:-119px;}
+#menualertas ul li a:hover ul, #menualertas ul li:hover ul {display: block;position: absolute;top:-6px;left:0;}
+/*#menualertas ul li ul li a {width: 143px;background-color: #000;color: #fff;border: solid 1px #fff;border-top: none;padding: 8px; }*/
+/*#menualertas ul li ul li a:hover {position: relative;background-color: #399;color: #FFF;}*/
+table.falsa {border-collapse:collapse;border:0px;float: left;position: relative;}
+
+
+ 
+/*	 E S T I L O S   D E   L A   P A G I N A  		*/ 
+
+
+.Estarriba{
+	background:url(../img/ventanas/arriba.png) no-repeat; width:144px; height:28px;
+	}
+
+.Estamedio{
+	background:url(../img/ventanas/medio.png); width:144px; height:19px;
+	}
+
+.Estabajo{
+	background:url(../img/ventanas/abajo.png) no-repeat; width:144px; height:10px;
+	} 
+
+
+
+.EstarribaAlerta{
+	background:url(../img/ventanas/arriba-alerta.png) no-repeat; width:324px; height:27px;
+	}
+
+.EstamedioAlerta{
+	background:url(../img/ventanas/medio-alerta.png); width:324px; height:16px;
+	}
+
+.EstabajoAlerta{
+	background:url(../img/ventanas/abajo-alerta.png) no-repeat; width:324px; height:15px;
+	} 
+	
+	

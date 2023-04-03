@@ -1,0 +1,406 @@
+
+body{
+    font-family:Verdana, Geneva, sans-serif;
+
+}
+
+
+.linea-verde{
+    background:#E30513;
+    height: 1px; 
+    box-shadow: 5px 3px 8px #161616;
+    -webkit-box-shadow: 5px 3px 8px #161616;
+    -moz-box-shadow: 5px 3px 8px #161616;
+    filter: shadow(color=#161616, direction=135, strength=2);
+}
+
+.menu-superior{
+    width: 530px;
+    height: 47px;
+    margin-top: -2px;
+
+}
+
+.contenedor-superior{
+    width: 718px;
+    height: 69px;
+    margin-top: 15px;
+    background: url('../img/contenedor-pestanas.png') no-repeat;
+}
+
+.cuadro-login{
+    background: url('../img/inicie-sesion.png') no-repeat;
+    margin: auto;
+    text-align: center;
+    width: 385px;
+    height: 393px;
+}
+
+
+
+.hero-unit{
+    padding:10px;
+    margin-bottom:8px;
+    line-height:15px;
+}
+
+.menuicon{
+    font-size:0.85rem;
+    text-decoration:none;
+    color:#181818;
+}
+
+.menuicon:hover{
+    /*text-decoration: underline;*/
+    font-size:0.85rem;
+    text-decoration:none;
+    color:rgb(227, 5, 19);
+}
+
+.error-message, label.error {
+    color: #ff0000;
+    margin:0;
+    display: none;
+    font-size: 0.8em !important;
+    font-weight:lighter;
+    padding-left: 5px;
+
+}
+.container {
+    background:url(header.png) no-repeat center center;
+}
+
+.tituloTI{
+    font-size: 0.71rem;
+    font-weight: bold;
+    color: rgb(56, 56, 56);
+    position: absolute;
+    margin: 5px auto auto 15px;
+}
+
+.subtituloTI{
+    font-size: 0.71rem;
+    font-weight: normal;
+    color: rgb(71, 164, 71);
+    position: absolute;
+    margin: 19px auto auto 15px;
+}
+
+.homecumple{
+    background: url(../img/cumpleanos-icono.png);
+    width: 16px;
+    height: 16px;
+    margin: 12px auto auto 348px;
+    position: absolute;
+}
+
+
+.homevendedor{
+    background: url(../img/vendedor-del-mes-icono.png);
+    width: 16px;
+    height: 16px;
+    margin: 12px auto auto 348px;
+    position: absolute;
+}
+
+.homemensaje{
+    background: url(../img/mensajes-del-dia-icono.png);
+    width: 16px;
+    height: 16px;
+    margin: 12px auto auto 348px;
+    position: absolute;
+}
+.TIO{
+    color:#202020;
+    font-weight:bold;
+    font-size:0.71rem;
+}
+
+.TIC{
+    color:#333333;
+    font-weight:normal;
+    font-size:0.71rem;
+}
+.TCborder{
+    border-bottom:1px solid #47a447;
+}
+
+.TCbordern{
+    border-bottom:1px solid #757575;
+}
+
+/* Esto es lo que queremos que el div para parecerse */
+div.todo {
+
+    /*Para que el div se vuelva desplazable*/
+    position: fixed; 
+
+    display: none;
+    background: black url('../img/abrir.gif') center center no-repeat;
+    opacity:0.6;
+    filter:alpha(opacity=90);
+    /* Establece el div en la esquina superior izquierda de la pantalla */
+    top: 0;
+    left: 0;
+    /* Establece el ancho y la altura a 100% de la pantalla */
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+
+input[type=checkbox].checkbox { 
+    position: absolute;  
+    overflow: hidden;  
+    clip: rect(0 0 0 0);  
+    height:1px;  
+    width:1px;  
+    margin:-1px;  
+    padding:0; border:0; 
+}  
+
+input[type=checkbox].checkbox + label.label2 {
+    padding-left:37px; 
+    height:34px;  
+    display:inline-block; 
+    line-height:17px; 
+    background-repeat:no-repeat;
+    background-position: 0 0; 
+    font-size:11px; 
+    vertical-align:middle; 
+    cursor:pointer; 
+    color: #000;
+    /*#939090 47433F*/
+}  
+input[type=checkbox].checkbox:checked + label.label2 { 
+    background-position: 0 -37px; 
+}  
+.label2{ 
+    background-image:url('../img/checkbox.png'); 
+}
+
+.calificacion{
+    color: #999999;
+    width: 100px;
+    margin-right: 117px;
+    float: right;
+    margin-top: 87px;
+
+}
+
+.linkmenusuperior{
+    font-size:9px;
+    color:#fff;
+}
+
+.form-filed {
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: FFFFFF;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.botones{
+    border: 0px outset;
+    background: url(../img/boton.png) left no-repeat;
+    width:133px !important;
+    height:38px;
+    font-size: 10px;
+    color: #ffffff;
+    cursor: hand;
+    font-weight:bold;
+    border:1px solid #000;
+    background-color:transparent;
+}
+
+
+.buscar {
+    max-width: 400px;
+    padding: 25px 20px 40px;
+    margin: 0 auto 20px;
+    background-color:#FFF;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.buscar2 {
+    max-width: 540px;
+    padding: 25px 20px 40px;
+    margin: 0 auto 20px;
+    background-color:#FFF;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.btn-buscar {
+    border: 0;
+    opacity: 1;
+    width: 92px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    outline: none;
+
+}
+
+.btn-rojo {
+    border: 0;
+    opacity: 1;
+    width: 136px;
+    height: 44px;
+    cursor: pointer;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    outline: none;
+
+}
+
+.btn-rojo-grande {
+    border: 0;
+    opacity: 1;
+    width: 192px;
+    height: 44px;
+    cursor: pointer;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    outline: none;
+
+}
+/*table#in { border: 1px solid #DDDDDD; 
+           border-top-width: 1px; 
+           border-right-width: 1px; 
+           border-bottom-width: 1px; 
+           border-left-width: 1px;
+           -webkit-border-radius: 4px;
+           -moz-border-radius: 4px;
+           border-radius: 4px;
+} */
+
+#pswd_info {
+    position:absolute;
+    /* top:375px;
+      right:55px;*/
+    width:320px;
+    padding:15px;
+    background:#fefefe;
+    font-size:0.8em;
+    border-radius:5px;
+    box-shadow:0 1px 3px #ccc;
+    border:1px solid #ddd;
+}
+#pswd_info h6 {
+    margin:0 0 10px 0;
+    padding:0;
+    font-weight:bold;
+}
+#pswd_info::before {
+    content: "\25B2";
+    position:absolute;
+    top:-12px;
+    left:45%;
+    font-size:14px;
+    line-height:14px;
+    color:#ddd;
+    text-shadow:none;
+    display:block;
+}
+.invalid {
+    background:url(../img/cancel.png) no-repeat 0 50%;
+    padding-left:22px;
+    line-height:20px;
+    color:#ec3f41;
+}
+.valida {
+    background:url(../img/accept.png) no-repeat 0 50%;
+    padding-left:22px;
+    line-height:24px;
+    color:#3a7d34;
+}	
+#pswd_info {
+    display:none;
+}	
+
+.CajaFotos{
+    height: 150px;
+    width: 200px; 
+    border: 1px solid #D2D2D2; 
+    border-radius: 13px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.CajaImagenes{
+    height: 134px; 
+    width: 144px; 
+    border: 1px solid #D2D2D2; 
+    border-radius: 13px; 
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.linkmenu{
+    font-weight:bold;
+}
+.success { 
+    color: #E30513; 
+    font-weight: bold; 
+    font-size:12px; 
+}
+
+/**********************ESTILOS INPUT FILE*********************/
+
+#NavegadorVisible {
+    width: 210px; 
+    margin-left: 2px;
+    margin-top: -24px;
+    z-index: 1;
+    /*  background:url(../img/adjuntar.png) 100% 0 no-repeat;*/
+}
+
+#campoArchivo {
+    width:204px;
+
+}
+
+#adjunto {
+    padding: 5px; 
+    width: 210px; 
+    -moz-opacity:0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    opacity:0;
+    z-index: 2;
+    cursor: pointer;
+} 
+
+.recuadroGris{
+    border: 1px solid #D2D2D2; 
+    border-radius: 13px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+
+}
+
+#cuadro_camara {
+    background-color: #d7d7d7;
+    padding-left: 30px;
+    padding-top:20px;
+}

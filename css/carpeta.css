@@ -1,0 +1,36 @@
+.content{
+	/*width: 660px;*/
+	margin:auto;
+}
+.cajasFloat{
+	float:left;
+	width:200px;
+	margin: 5px 10px;
+	background-color:#9C0;
+	text-align:center;
+	color:#fff;
+}
+.clear{
+	clear:both;
+}
+
+.caja1{
+	float:left;
+	/*display: inline-block;*/
+	width:300px;
+	margin: 5px 8px;
+	text-align:center;
+	color:#fff;
+}
+
+.caja2{
+	display: inline-block;
+	width:580px;
+	margin: 5px 8px;
+	text-align:center;
+	color:#fff;
+}
+.tNegrita{
+	font-weight:bold;
+	
+	}

@@ -1,0 +1,73 @@
+
+/*	 M E N U   C S S 		*/
+<!--* { margin: 0px;padding: 0px; outline: 0;}-->
+/*html, body { background-color:#008DCC; width: 100%;}
+body { font-family: Verdana, Arial, Helvetica, sans-serif;}*/
+#menuesta {margin:20px;  font-size: 0.7em;position: absolute; width:56px; }
+#menuesta ul { list-style-type: none;}
+#menuesta ul li a.primera { border-top: solid 1px #FFF;} 
+#menuesta ul li a.nivel1, #menuesta ul li a.nivel1ie { width: 56px;height: 47px;z-index:99; }
+#menuesta ul li a {display: block;text-decoration: none;color: #fff;position: absolute;text-align: center;}
+/*#menuesta ul li a:hover, #menuesta ul li:hover a.nivel1 {background-color: 
+
+#6CC;color: #000;position: absolute;}*/
+#menuesta ul li a.nivel1 {display: block!important;position: absolute; margin-top:-24px; margin-left:-15px;}
+#menuesta ul li ul {display: none; margin-left:-30px;}
+#menuesta ul li a:hover ul, #menuesta ul li:hover ul {display: block;position: absolute;top:3px;left:-27px;}
+/*#menuesta ul li ul li a {width: 143px;background-color: #000;color: #fff;border: solid 
+
+1px #fff;border-top: none;padding: 8px; }*/
+/*#menuesta ul li ul li a:hover {position: absolute;background-color: #399;color: #FFF;}*/
+table.falsa {border-collapse:collapse;border:0px;float: left;position: absolute;}
+
+ 
+/*	 MENU PARA ALERTAS		*/ 
+#menualertas {  font-size: 0.7em;margin: 20px;position: absolute; width:40px;}
+#menualertas ul { list-style-type: none;}
+#menualertas ul li a.primera { border-top: solid 1px #FFF;} 
+#menualertas ul li a.nivel1alertas, #menualertas ul li a.nivel1alertasie { right:-5px; width: 60px;height: 47px;z-index:99; }
+#menualertas ul li a {display: block;text-decoration: none;color: #fff;position: absolute;text-align: center;}
+/*#menualertas ul li a:hover, #menualertas ul li:hover a.nivel1alertas {background-color: 
+
+#6CC;color: #000;position: absolute;}*/
+#menualertas ul li a.nivel1alertas {display: block!important;display:none;position:absolute; margin-top:-24px; }
+#menualertas ul li ul {display: none; margin-left:-160px;}
+#menualertas ul li a:hover ul, #menualertas ul li:hover ul {display: block;position: absolute;top:2px;left:0;}/*este es el unico con posicion absolute*/
+/*#menualertas ul li ul li a {width: 143px;background-color: #000;color: #fff;border: solid 1px #fff;border-top: none;padding: 8px; }*/
+/*#menualertas ul li ul li a:hover {position: absolute;background-color: #399;color: #FFF;}*/
+table.falsa {border-collapse:collapse;border:0px;float: left;position: absolute;}
+
+
+ 
+/*	 E S T I L O S   D E   L A   P A G I N A  		*/ 
+
+
+.Estarriba{
+	background:url(../img/ventanas/arriba.png) no-repeat; width:144px; 
+	height:28px;
+	}
+
+.Estamedio{
+	background:url(../img/ventanas/medio.png); width:144px; height:19px;
+	}
+
+.Estabajo{
+	background:url(../img/ventanas/abajo.png) no-repeat; width:144px; 
+	height:10px;
+	} 
+
+.EstarribaAlerta{
+	background:url(../img/ventanas/arriba-alerta.png) no-repeat; width:324px; 
+	height:27px;
+	}
+
+.EstamedioAlerta{
+	background:url(../img/ventanas/medio-alerta.png); width:324px; height:16px;
+	}
+
+.EstabajoAlerta{
+	background:url(../img/ventanas/abajo-alerta.png) no-repeat; width:324px; 
+ 	height:15px;
+	} 
+	
+	
